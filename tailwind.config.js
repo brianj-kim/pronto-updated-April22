@@ -1,0 +1,16 @@
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'teal-header': '#17252A',
+      },
+      screens: {
+        "3xl": "2000px",
+      }
+    },
+  },
+  plugins: [require('tailwind-scrollbar-hide')],
+}
