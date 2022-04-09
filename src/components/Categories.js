@@ -40,7 +40,7 @@ export default function Menus({ data, activeCategory, targetCategoryPositions })
 
   return (
     <nav className="bg-[#17252A] sticky top-0">
-        <div id="categoryMenu" className="flex px-12 sm:px-20 whitespace-nowrap space-x-14 sm:space-x-10 overflow-x-scroll scrollbar-hide ">
+        <div id="categoryMenu" className="flex px-12 sm:px-20 whitespace-nowrap space-x-14 sm:space-x-10 overflow-x-scroll scrollbar-hide h-fit">
         {data && data.map((categories, i) => (
             <div 
                 key={i} 

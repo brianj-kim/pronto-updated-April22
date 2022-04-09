@@ -4,10 +4,11 @@ import {
   LocationMarkerIcon,
   PencilAltIcon,
   ClockIcon,
+  ShoppingCartIcon
 } from '@heroicons/react/outline';
 import HeaderItem from './HeaderItem';
 
-export default function Header({ handleShowHours }) {
+export default function Header({ handleShowHours, handleIsOpen, cartItems }) {
   const handlePhoneCall = () => {
     // console.log("phone call handle function has been evoked");
     window.location.href = "tel://306-546-3278";
@@ -32,6 +33,8 @@ export default function Header({ handleShowHours }) {
         <HeaderItem title='LOCATION' Icon={LocationMarkerIcon} props={handleLocation} />      
         <HeaderItem title='HOURS' Icon={ClockIcon} props={handleShowHours}/>
         <HeaderItem title='ORDER' Icon={PencilAltIcon} props={handleOnlineOrder}/>
+        <HeaderItem title='CART' Icon={ShoppingCartIcon} props={handleIsOpen} cartItems={cartItems}/>
+
       </div>
             
     </header>

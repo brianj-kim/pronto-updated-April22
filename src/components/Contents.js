@@ -1,7 +1,7 @@
 import React, { useRef, useLayoutEffect } from 'react';
 import MenuCard from './MenuCard';
 
-export default function Contents({ data, activeCategory, setActiveCategory, targetCategoryPositions }) {
+export default function Contents({ data, activeCategory, setActiveCategory, targetCategoryPositions, setCartItems }) {
   // console.log(props);
 
     const targetRefs = useRef([]);
@@ -88,7 +88,9 @@ export default function Contents({ data, activeCategory, setActiveCategory, targ
                 ))}
             </div>                
         ))}
-        </div>  
+        </div>
+
+        
     </div>   
 
   )
