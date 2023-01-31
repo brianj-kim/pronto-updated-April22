@@ -1,7 +1,7 @@
 # Renewal of the website (http://gopronto.ca)
 
+This project is to renew the Pronto, local Japanese/Korean Restaurant's website on http://gopronto.ca using React.js and JSON data.
 
-This personal project is about the renewal on http://gopronto.ca in React.js
 
 ## TODOs
 
