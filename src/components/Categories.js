@@ -46,9 +46,9 @@ export default function Menus({ data, activeCategory, targetCategoryPositions })
                 key={i} 
                 className={`text-xl py-3 last:pr-24 cursor-pointer transition duration-100 transform font-semibold text-white hover:scale-125 active:text-red-600 ${activeCategory === categories.category ? "scale-125 px-9 " : ""}`}
                 ref={assignNavCatRef}
-                onClick={() => handleNavCategory(categories.category)}
+                onClick={() => handleNavCategory(categories.title)}
             >
-                {categories.category}
+                {categories.title}
             </div>
         ))}
         </div>

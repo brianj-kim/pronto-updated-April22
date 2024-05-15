@@ -152,64 +152,8 @@
             "isNew": true,
             "isVegi": false,
             "toggled": false
-         }
-       ]
-    },
-    {
-        "category": "Salad",
-        "detail": "",
-        "menus": [
-           {
-            "id": 16,
-              "title": "House Garden Salad",
-              "image": "",
-              "price": 5.00,
-              "description": "",
-              "isNew": false,
-              "isVegi": true,
-              "toggled": false
-           },
-           {
-            "id": 17,
-            "title": "Spicy Salmon Salad",
-            "image": "",
-            "price": 6.00,
-            "description": "Raw salmon with Korean spicy sauce",
-            "isNew": false,
-            "isVegi": false,
-            "toggled": false
-           },
-           {
-            "id": 18,
-            "title": "Grilled Tuna Salad",
-            "image": "",
-            "price": 8.00,
-            "description": "",
-            "isNew": false,
-            "isVegi": false,
-            "toggled": false
-           },
-           {
-            "id": 19,
-            "title": "Grilled Salmon Salad",
-            "image": "",
-            "price": 8.00,
-            "description": "",
-            "isNew": false,
-            "isVegi": false,
-            "toggled": false
-           },
-           {
-            "id": 20,
-            "title": "Grilled Chicken Salad",
-            "image": "",
-            "price": 8.00,
-            "description": "",
-            "isNew": false,
-            "isVegi": false,
-            "toggled": false
-           },
-           {
+         },
+         {
             "id": 21,
             "title": "Sea Weed Salad",
             "image": "",
@@ -218,9 +162,9 @@
             "isNew": false,
             "isVegi": false,
             "toggled": false
-           }                    
-        ]
-     },
+           }
+       ]
+    },
     {
         "category": "Donburi",
         "detail": "RiceBowl, included a small bowl of miso soup",
@@ -535,27 +479,7 @@
             "isNew": false,
             "isVegi": false,
             "toggled": false
-           },
-           {
-            "id": 53,
-            "title": "Half Yang-nyum & Half Fried Chicken",
-            "image": "",
-            "price": 27.00,
-            "description": "",
-            "isNew": false,
-            "isVegi": false,
-            "toggled": false
-           },
-           {
-            "id": 54,
-            "title": "Half Gan-jang & Half Fried Chicken",
-            "image": "",
-            "price": 27.00,
-            "description": "",
-            "isNew": false,
-            "isVegi": false,
-            "toggled": false
-           }           
+           }        
         ]
      },
      {
@@ -652,16 +576,7 @@
             "isVegi": true,
             "toggled": false
            },
-           {
-            "id": 64,
-            "title": "Chicken Chashu Ramen",
-            "image": "",
-            "price": 12.50,
-            "description": "",
-            "isNew": false,
-            "isVegi": false,
-            "toggled": false
-           },
+           
            {
             "id": 65,
             "title": "Ku Tan Men",
@@ -1288,7 +1203,7 @@
          },
          {
             "id": 125,
-            "title": "Spicy Jumbo Rainbow",
+            "title": "Spicy Jumbo Dynamite",
             "image": "",
             "price": 14.50,
             "description": "Inside: 4 tempura shrimps, Crab meat, Avocado, Cucumber and Jalapeno, On the top: Black sauce and Spicy mayo",
@@ -1833,16 +1748,6 @@
             "image": "http://gopronto.ca/images_menu/sashimi-combo.jpg",
             "price": 22.00,
             "description": "5pcs Salmon, 5pcs Tuna, 2pcs Ebi",
-            "isNew": false,
-            "isVegi": false,
-            "toggled": false
-         },
-         {
-            "id": 178,
-            "title": "Sashimi Tar Tar",
-            "image": "http://gopronto.ca/images_menu/sashimi-tartar.jpg",
-            "price": 10.00,
-            "description": "",
             "isNew": false,
             "isVegi": false,
             "toggled": false

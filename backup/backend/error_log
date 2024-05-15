@@ -1,0 +1,14 @@
+[28-Sep-2023 03:50:17 UTC] PHP Warning:  Undefined array key "HTTP_ORIGIN" in /home/gopronto/public_html/backend/origin_config.php on line 4
+[28-Sep-2023 03:50:17 UTC] PHP Warning:  Undefined variable $http_orogin in /home/gopronto/public_html/backend/origin_config.php on line 8
+[28-Sep-2023 03:52:00 UTC] PHP Warning:  Undefined array key "HTTP_ORIGIN" in /home/gopronto/public_html/backend/origin_config.php on line 4
+[28-Sep-2023 03:52:00 UTC] PHP Warning:  Undefined variable $http_orogin in /home/gopronto/public_html/backend/origin_config.php on line 8
+[28-Sep-2023 15:59:18 UTC] PHP Warning:  Undefined array key "HTTP_ORIGIN" in /home/gopronto/public_html/backend/origin_config.php on line 4
+[28-Sep-2023 15:59:18 UTC] PHP Warning:  Undefined variable $http_orogin in /home/gopronto/public_html/backend/origin_config.php on line 8
+[28-Sep-2023 16:00:49 UTC] PHP Warning:  Undefined array key "HTTP_ORIGIN" in /home/gopronto/public_html/backend/origin_config.php on line 4
+[28-Sep-2023 16:00:49 UTC] PHP Warning:  Undefined variable $http_orogin in /home/gopronto/public_html/backend/origin_config.php on line 8
+[28-Sep-2023 16:03:30 UTC] PHP Warning:  Undefined array key "HTTP_ORIGIN" in /home/gopronto/public_html/backend/origin_config.php on line 4
+[28-Sep-2023 16:03:30 UTC] PHP Warning:  Undefined variable $http_orogin in /home/gopronto/public_html/backend/origin_config.php on line 8
+[28-Sep-2023 16:07:29 UTC] PHP Warning:  Undefined array key "HTTP_ORIGIN" in /home/gopronto/public_html/backend/origin_config.php on line 4
+[28-Sep-2023 16:07:29 UTC] PHP Warning:  Undefined variable $http_orogin in /home/gopronto/public_html/backend/origin_config.php on line 8
+[28-Sep-2023 16:07:34 UTC] PHP Warning:  Undefined array key "HTTP_ORIGIN" in /home/gopronto/public_html/backend/origin_config.php on line 4
+[28-Sep-2023 16:07:34 UTC] PHP Warning:  Undefined variable $http_orogin in /home/gopronto/public_html/backend/origin_config.php on line 8

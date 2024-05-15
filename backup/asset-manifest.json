@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7274f364.css",
+    "main.js": "/static/js/main.0ea5f992.js",
+    "static/media/roll_nigiri.jpg": "/static/media/roll_nigiri.3aed4fa974a06a00e53e.jpg",
+    "static/media/roll_sakura.jpg": "/static/media/roll_sakura.19b945787aa6b7426d89.jpg",
+    "static/media/jumbo_rainbow.jpg": "/static/media/jumbo_rainbow.a3c2b20e6d75c3b01544.jpg",
+    "static/media/korean_style_ganjang_chicken.jpg": "/static/media/korean_style_ganjang_chicken.4bfe5dafd8e50700581c.jpg",
+    "static/media/sushi_roll.jpg": "/static/media/sushi_roll.6ba82137eeab22ef1a36.jpg",
+    "static/media/tori_karaake.jpg": "/static/media/tori_karaake.73a452275e8a3bd55821.jpg",
+    "static/media/ramen_nagasaki.jpg": "/static/media/ramen_nagasaki.b354c8284c5c4bf9ce0b.jpg",
+    "static/media/spinach_salad.jpg": "/static/media/spinach_salad.9f74a94137d5e9b1fdb7.jpg",
+    "static/media/logo_pronto.png": "/static/media/logo_pronto.e18c4a568918821ae054.png",
+    "index.html": "/index.html",
+    "main.7274f364.css.map": "/static/css/main.7274f364.css.map",
+    "main.0ea5f992.js.map": "/static/js/main.0ea5f992.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7274f364.css",
+    "static/js/main.0ea5f992.js"
+  ]
+}

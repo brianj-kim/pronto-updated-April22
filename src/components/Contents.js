@@ -73,19 +73,22 @@ export default function Contents({ data, activeCategory, setActiveCategory, targ
 
   return (
 
-    <div className="w-full flex bg-[#FEFFFF] min-h-screen text-teal-header px-3 py-2">
+    <div className="w-full flex bg-[#FEFFFF] min-h-screen text-teal-header px-6 md:px-14 py-2">
         <div id="targetScroll" className="flex flex-auto flex-col justify-center mt-4">
         { data && data.map((item, i) => (
-            <div key={i} ref={handleTargetRefs} className="border-1 rounded-lg shadow-md mx-4 mb-8  h-fit">
-                <div className="flex flex-col justify-center text-center p-3 rounded-t bg-[#abd9cb]">
-                    <p className="text-xl font-semibold">{item.category}</p>
-                    { item.detail !== "" ? 
-                        <p className="text-sm opacity-60">{item.detail}</p> : null
+            <div key={i} ref={handleTargetRefs} className="rounded-t-lg rounded-b-lg mb-8 h-fit">
+                <div className="flex flex-col justify-center text-center py-3 rounded-t-md bg-[#abd9cb]">
+                    <p className="text-xl font-semibold">{item.title}</p>
+                    { item.details!== "" ? 
+                        <p className="text-sm opacity-60">{item.details}</p> : null
                     }                    
                 </div>
-                { item.menus && item.menus.map((menu,i) => (
-                <MenuCard menu={menu} key={i} />
-                ))}
+                <div className={`py-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4`}>
+                { item.menus && item.menus.map((menu,i) => 
+                    menu.isOnSale ? (
+                        <MenuCard menu={menu} key={i} />
+                    ) : null )}
+                </div>
             </div>                
         ))}
         </div>  

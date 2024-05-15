@@ -15,7 +15,7 @@ const Banner = (props, ref) => {
             </div>
           </div>
           <div className="flex flex-col text-left">
-            <span className="font-semibold">- 11:00am ~ 8:00pm</span>
+            <span className="font-semibold">- 11:00am ~ 7:30pm</span>
             <span className="font-semibold">- 11:30am ~ 7:00pm</span>
             <span className="font-semibold">- Close</span>
           </div>          
